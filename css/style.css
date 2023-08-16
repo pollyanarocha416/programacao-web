@@ -1,13 +1,57 @@
 body{
-    color: rgb(255, 255, 255);
-    background-color: rgb(126, 59, 193);
-    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+ul.navbar {
+    list-style: none;
+    padding: 0;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 670px;
+    
+    /* Para remover qualquer preenchimento padrão da lista */
+}
+
+ul.navbar li {
+    display: inline;
+    margin-right: 10px;
+    
+    
+    
+    /* Para exibir os itens da lista na mesma linha */
+}
+
+ul.navbar a {
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    color: rgb(255, 255, 255);
+    /* Adapte o preenchimento conforme necessário */
+    background-color: #130827;
+}
+
+ul.navbar a:hover {
+    border-bottom: none;
+    background-color: rgb(99, 89, 145);
+    
+    /* Adicione um destaque visual ao passar o mouse */
+}
+
+
+
+
+
+
+
+
 footer{
-    background: #090332;
+    background: #130827;
         width: 100%;
         height: 57px;
         position: absolute;
         bottom: 0;
         left: 0;
+        text-align: center;
+        color: aliceblue;
 }
